@@ -1,4 +1,6 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(names)
+  one_by_one = []
+  names.each_with_index { |name, index|}
   # Your code here
 end
 
