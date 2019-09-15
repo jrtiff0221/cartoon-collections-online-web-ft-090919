@@ -8,6 +8,7 @@ def summon_captain_planet(names)
 end
 
 def long_planeteer_calls(names)
+   i = 
   
   # Your code here
 end
