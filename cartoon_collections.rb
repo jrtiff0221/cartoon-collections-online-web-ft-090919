@@ -23,3 +23,6 @@ puts find_the_cheese(snacks)
 
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 puts find_the_cheese(soup)
+
+s = ["tomato soup", "oyster crackers", "hamburger"]
+puts find_the_cheese(s)
