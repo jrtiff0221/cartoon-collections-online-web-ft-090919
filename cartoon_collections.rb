@@ -4,7 +4,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(names)
-  names.split.map(&:capitalize).join('1')
+  names.split.collect 
 end
 
 def long_planeteer_calls# code an argument here
