@@ -7,7 +7,8 @@ def summon_captain_planet(names)
   return names.collect { |names| "#{names.capitalize}!" }
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(names)
+  
   # Your code here
 end
 
