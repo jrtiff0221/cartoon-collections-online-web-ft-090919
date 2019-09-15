@@ -1,6 +1,5 @@
 def roll_call_dwarves(names)
-  one_by_one = []
-  names.each_with_index { |name, index|}
+  names.each_with_index { |name, index| puts index  }
   # Your code here
 end
 
