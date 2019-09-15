@@ -7,8 +7,8 @@ def summon_captain_planet(names)
   return names.collect { |names| "#{names.capitalize}!" }
 end
 
-def long_planeteer_calls(names)
-   i = 
+def long_planeteer_calls(words)
+   words.collect { |word| word.length > 4 }.any?
   
   # Your code here
 end
