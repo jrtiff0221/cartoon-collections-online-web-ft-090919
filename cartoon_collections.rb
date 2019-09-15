@@ -4,7 +4,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(names)
-  return names.split.collect { |word| word.upcase }.join(" ! ")
+  return names.collect { |word| word.upcase }.join(" ! ")
 end
 
 def long_planeteer_calls# code an argument here
