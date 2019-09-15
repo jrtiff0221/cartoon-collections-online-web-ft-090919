@@ -18,11 +18,3 @@ def find_the_cheese(food_items)
   
 end
 
-snacks = ["crackers", "gouda", "thyme"]
-puts find_the_cheese(snacks)
-
-soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-puts find_the_cheese(soup)
-
-s = ["tomato soup", "oyster crackers", "hamburger"]
-puts find_the_cheese(s)
